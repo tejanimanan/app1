@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar';
+
 import { useState } from 'react';
 
 export default function About() {
@@ -31,7 +31,7 @@ export default function About() {
     }
     return (
         <>
-            <Navbar title="About us " />
+           
             <div className='container my-4' >
                 <div className='card shadow' >
                     <div className='card-header' style={style}>
